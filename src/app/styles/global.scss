@@ -1,0 +1,62 @@
+@import url('./variables.scss');
+
+
+
+.display-flex-column {
+    display: flex;
+    flex-direction: column;
+}
+
+.display-flex-row {
+    display: flex;
+    flex-direction: row;
+}
+
+
+.justify-content-space-between {
+    justify-content: space-between;
+}
+
+.align-items-center {
+    align-items: center;
+}
+
+.align-items-start {
+    align-items: flex-start;
+}
+
+.full-width-height {
+    width: 100%;
+    height: 100%;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.full-height {
+    height: 100%;
+}
+
+.radius {
+    border-radius: 12px
+}
+
+.main-cards-container {
+    padding: 0 6%;
+}
+
+.main-font-300 {
+    font-family: var(--font-family);
+    font-weight: 300;
+}
+
+.main-font-400 {
+    font-family: var(--font-family);
+    font-weight: 400;
+}
+
+.main-font-500 {
+    font-family: var(--font-family);
+    font-weight: 500;
+}

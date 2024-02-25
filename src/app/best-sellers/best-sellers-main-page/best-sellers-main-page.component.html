@@ -1,0 +1,27 @@
+<div class="content display-flex-row full-width-height align-items-center">
+  <div class="main-cards-container full-width display-flex-row justify-content-space-between">
+    <div class="profile display-flex-column full-width-height">
+    <div class="profile-card display-flex-column full-width-height ">
+      <img src="../../../assets/profile-pic.png" />
+      <div class="profile-text display-flex-column">
+        <span class="main-font-400 profile-subtitle">Report for</span>
+        <div class="profile-title display-flex-column">
+          <span class="main-font-300 profile-title-text">Best</span>
+          <span class="main-font-300 profile-title-text"> Sellers</span>
+        </div>
+      </div>
+    </div>
+    <div class="time-period display-flex-column">
+        <span class="main-font-300 choices" (click)="selectedHandler('d')" [ngClass]="selected=='d'?'active':''" style="margin-top: 2vh;">Daily</span>
+        <span class="main-font-300 choices" (click)="selectedHandler('w')" [ngClass]="selected=='w'?'active':''">Weekly</span>  
+        <span class="main-font-300 choices" (click)="selectedHandler('m')" [ngClass]="selected=='m'?'active':''">Monthly</span>  
+        <span class="main-font-300 choices"></span>  
+
+
+    </div>
+  </div>
+    <div class="full-width-height products-container display-flex-column">
+      <app-card [secondBackgroundColor]="cardBackgroundColor[product.id]" *ngFor="let product of productsList" [product]="product"></app-card>
+    </div>
+    </div>
+</div>

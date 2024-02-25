@@ -1,0 +1,100 @@
+.main-container {
+    padding-top: 10%;
+    border-radius: 12px;
+    height: 70%;
+}
+
+.card {
+    border-radius: 10px;
+    width: 100%;
+    padding: 1vw;
+    background-color: #1c204b;
+    height: 100%;
+}
+
+
+
+.card-title-text {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 1.2vw;
+    color: white;
+}
+
+.options-btn {
+    font-family: "Rubik", sans-serif;
+    font-weight: 500;
+    font-size: 1vw;
+    color: white;
+    cursor: pointer;
+}
+
+button {
+    background-color: transparent;
+    border: unset;
+    box-sizing: unset;
+
+}
+
+.details-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 100%;
+}
+
+.price-text {
+    font-family: "Rubik", sans-serif;
+    font-weight: 300;
+    font-size: 2vw;
+    color: white;
+}
+
+.price-description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: flex-start;
+    width: 70%;
+}
+
+.description-text {
+    font-family: "Rubik", sans-serif;
+    font-weight: 400;
+    font-size: 0.8vw;
+    color: #BBC0FF;
+}
+
+.product-count {
+    flex-wrap: wrap;
+    align-self: flex-end;
+    justify-self: flex-end;
+    font-weight: 500;
+    font-size: 0.8vw;
+    color: white;
+}
+
+.orange {
+    background-color: #FF8B64;
+}
+
+
+.lightBlue {
+    background-color: #55C2E6;
+}
+
+.red {
+    background-color: #FF5E7D;
+}
+
+.green {
+    background-color: #4BCF82;
+}
+
+.purple {
+    background-color: #7335D2;
+}
+
+.yellow {
+    background-color: #F1C75B;
+}

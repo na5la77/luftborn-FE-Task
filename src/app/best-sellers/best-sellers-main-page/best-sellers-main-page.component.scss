@@ -1,0 +1,95 @@
+
+
+.main-cards-container {
+    gap: 2vw;
+}
+
+.profile-card {
+    padding: 10% 0 2% 2%;
+    background-color: var(--profile-background-color);
+    border-radius: 0.7vw;
+    z-index: 2;
+    width: 98%;
+    align-self: stretch;
+
+}
+
+.profile {
+    width: 20%;
+    height: 60vh;
+}
+
+.time-period {
+    background-color: var(--secondary-background-color);
+    border-radius: 0 0 12px 12px;
+    z-index: 1;
+    position: relative;
+    top: -3vh;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 2vh 1vw;
+    gap: 2vh;
+    min-height: 30%;
+    justify-content: center;
+    margin-top: 2vh;
+
+}
+.choices{
+    cursor: pointer;
+    color: #7078C9 ;
+}
+
+img {
+    border-radius: 100%;
+    align-self: center;
+    width: 40%;
+    border: 2px solid #fff;
+    align-self: center;
+}
+
+.profile-text {
+    gap: 2vh;
+    padding: 5%;
+    margin-top: 2vh;
+}
+
+
+.profile-subtitle {
+    color: var(--secondary-text-color);
+    font-size: 1em;
+}
+
+.profile-title-text {
+    color: var(--secondary-text-color);
+    font-size: 2vw;
+    line-height: 50px;
+    letter-spacing: 0.7vw;
+    line-height: 4.58vh;
+}
+
+.products-container{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 1vw;
+    flex:1;
+    height: 65vh;
+    margin-top:-2vh;
+
+}
+.main-products-cards-container {
+    flex-wrap: wrap;
+
+    width: 100%;
+    padding: 0 2%;
+}
+.active{
+    color: #fff;
+    cursor: default;
+}
+app-card{
+    flex:1;
+    margin-top: 2vh;
+
+}

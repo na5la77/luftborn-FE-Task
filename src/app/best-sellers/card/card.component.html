@@ -1,0 +1,33 @@
+<div class="main-container" [ngClass]="secondBackgroundColor">
+    <div class="content display-flex-row full-height radius">
+      <div class="card full-width-height">
+        <div class="justify-content-space-between display-flex-column full-width-height align-items-start">
+          <div class="justify-content-space-between display-flex-row full-width-height align-items-start">
+            <span class="card-title-text">
+              {{ product?.category }}
+            </span>
+            <button>
+              <div (click)="moreOptions()" class="options-btn">
+                &#x2022;&#x2022;&#x2022;
+              </div>
+            </button>
+          </div>
+          <div class="details-container">
+            <div class="price-description-container">
+              <div class="price-text">
+                {{ product?.price | currency : "" : "" }}$
+              </div>
+              <div class="description-text">
+                {{ product?.title??""|shortenText }}
+              </div>
+            </div>
+            <div class="product-count">
+            <div>Instore</div>
+            <div>120</div>
+          </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  
